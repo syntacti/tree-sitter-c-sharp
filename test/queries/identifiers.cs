@@ -1,6 +1,7 @@
 namespace World
 {
     class Hello {
+    //   ^ definition.class
         static void Main(string []args)
         {
             Hello x = new Hello();
