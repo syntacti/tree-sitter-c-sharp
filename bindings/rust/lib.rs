@@ -43,6 +43,9 @@ pub fn language() -> Language {
     unsafe { tree_sitter_c_sharp() }
 }
 
+/// The syntax highlighting query for this language.
+pub const HIGHLIGHT_QUERY: &'static str = include_str!("../../queries/highlights.scm");
+
 /// The source of the C# tree-sitter grammar description.
 pub const GRAMMAR: &'static str = include_str!("../../grammar.js");
 
